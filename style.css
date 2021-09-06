@@ -1,0 +1,32 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    background: url(W1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center center;
+
+
+}
+.wallpaper{
+    margin: 100px;
+    border-radius: 20px;
+    width: 800px;
+    height: 400px;
+    box-shadow: 0px 0px 30px rgb(43, 216, 207) ;
+    animation: run 4s linear 1;
+        
+}
+
+
+.wallpaper:hover {
+    box-shadow: 0px 0px 30px rgba(255, 66, 66, 0.541);
+    transform: .5s;
+}
+@keyframes run{
+	0%{
+		transform: translate(-100%,0%);
+	}
